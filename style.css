@@ -166,6 +166,14 @@ ul{padding:0;list-style:none}
 .hero__texto .rotulo{color:var(--bege);opacity:.85}
 .hero__texto .titulo{color:var(--bege);margin:.75rem 0 1.75rem;max-width:22ch}
 .hero__texto .destaque{color:#E7CFA6}
+/* aviso de "onde entra a foto" fica discreto, num cantinho, para não brigar com o título */
+.hero__foto .slot p,
+.experiencia__foto .slot p{
+  position:absolute;top:1rem;left:1rem;right:auto;
+  max-width:11rem;font-size:.72rem;opacity:.55;text-align:left;
+}
+.hero__foto .slot small,
+.experiencia__foto .slot small{opacity:.9}
 
 /* ---------- seção A Profissional ---------- */
 .secao{padding-block:clamp(3.5rem,7vw,6rem)}
