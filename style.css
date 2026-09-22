@@ -199,7 +199,7 @@ ul{padding:0;list-style:none}
 
 /* ---------- experiência (tira com fotos) ---------- */
 .experiencia{position:relative;isolation:isolate}
-.experiencia__foto{position:relative;aspect-ratio:21/9;min-height:16rem}
+.experiencia__foto{position:relative;min-height:clamp(16rem,42vw,24rem);width:100%}
 .experiencia__foto .slot{position:absolute;inset:0}
 .experiencia__foto::after{
   content:"";position:absolute;inset:0;
